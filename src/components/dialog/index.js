@@ -8,7 +8,7 @@ const Dialog = ({ content, showWelcome, onConfirm }) => {
       <div className={ styles.inner }>
         <div className={ styles.content }>
           <img src={ icon } alt={ 'Bitmap icon of developer' } />
-          <div>          { content }</div>
+          <div> { content }</div>
         </div>
         <div className={ styles.actions }>
           <button className={ styles.primary}  onClick={ onConfirm }>OK</button>
